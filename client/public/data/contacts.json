@@ -1,0 +1,16 @@
+{
+    "contacts": [
+        {
+            "id": 1,
+            "name": "Ahmed Aly"
+        },
+        {
+            "id": 2,
+            "name": "Ibrahim Yaqoub"
+        },
+        {
+            "id": 3,
+            "name": "Ziad Tarek"
+        }
+    ]
+}
