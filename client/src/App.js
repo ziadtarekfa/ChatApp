@@ -1,10 +1,11 @@
+import Chat from "./Chat";
 import Contacts from "./Contacts";
 
 function App() {
   return (
     <div className="flex">
       <Contacts />
-      <div>Chat</div>
+      <Chat />
     </div>
   );
 }

@@ -11,11 +11,11 @@ const Contacts = () => {
             setContacts(response.data.contacts);
         }).catch((error) => {
             console.error('Error fetching contacts: ', error);
-        })
+        });
     }, []);
 
     return (
-        <div className="h-[100vh] bg-[#FBFDF6] w-3/12 px-8" >
+        <div className="h-[100vh] bg-[#FBFDF6] w-1/3 px-8 shadow-md" >
             <div className="flex items-center justify-between  mt-12">
                 <h1 className="text-3xl font-semibold">Whatsapp</h1>
                 <button className="bg-blue-400 py-2 px-4 rounded-lg text-white">Add Contact</button>

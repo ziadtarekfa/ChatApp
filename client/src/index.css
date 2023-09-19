@@ -8,3 +8,18 @@ body {
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
 }
+
+::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+}
+
+/* Optional: Add styles to the scrollbar track (background) */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Optional: Add styles to the scrollbar thumb (the draggable part) */
+::-webkit-scrollbar-thumb {
+  background: transparent;
+}
